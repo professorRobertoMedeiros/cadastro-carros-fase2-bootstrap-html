@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    margin: 1%;
+    flex-direction: column;
+}
+
+.header {
+    margin-bottom: 20px;
+    color: #004A8D;
+}
+
+.logo {
+    float: left;
+    margin-right: 20px;
+}
+
+.titulo {
+    overflow: hidden;
+    text-align: center;
+}
+
+.menu {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.table td:first-child {
+    width: 100px;
+    text-align: center;
+}
+
+.btn-outline-primary, .btn-outline-danger {
+    padding: 0.25rem 0.5rem;
+}
+
+.fundo-barra-navegacao {
+    background-color: #004A8D !important;
+    border-radius: 5px;
+}
+
+.fundo-barra-navegacao-font {
+    color: white !important;
+}
